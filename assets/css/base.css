@@ -1,7 +1,7 @@
 :root {
     --transition-default: 0.3s all ease-in-out;
     --font-theme: 'Roboto', Arial, Helvetica, sans-serif;
-	--black-color: #000000;
+    --black-color: #000000;
 }
 
 body {
@@ -125,6 +125,7 @@ textarea:focus {
     line-clamp: var(--line);
     -webkit-box-orient: vertical;
     height: calc(var(--line) * var(--font-size) * var(--line-height));
+    font-size: var(--font-size);
 }
 
 input::-webkit-outer-spin-button,
