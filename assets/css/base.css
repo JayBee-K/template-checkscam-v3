@@ -177,7 +177,7 @@ input[type='number'] {
     color: var(--black-color);
     border: 1px solid var(--bs-gray-200);
     border-radius: 4px;
-    gap: 15px;
+    gap: 5px;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
