@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>CheckScam V3</title>
+    <meta name="description" content="CheckScam V3">
+    <meta name="author" content="">
+
+    <meta property="og:title" content="CheckScam V3">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="CheckScam V3">
+    <meta property="og:image" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+
+    <link rel="icon" href="./assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/plugins/fancybox/fancybox.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        :root {
+            --primary-color: #0f7233;
+            --primary-hover: #158a3f;
+            --primary-rgb: 15, 114, 51;
+        }
+    </style>
+</head>
+
+<body>
+<header id="header" class="header">
+    <div class="header-main">
+        <div class="container">
+            <div class="header-grid">
+                <div class="header-logo">
+                    <a href="index.html" class="d-inline-block align-middle">
+                        <img src="./assets/images/logo.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="header-navigation">
+                    <ul class="header-navigation_list">
+                        <li class="header-navigation_item">
+                            <a href="index.html" class="header-navigation_item--link">
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li class="header-navigation_item">
+                            <a href="to-cao.html" class="header-navigation_item--link">
+                                Tố cáo <i class="fas fa-caret-down header-navigation_item--icon"></i>
+                            </a>
+                            <ul class="header-navigation_sub--list">
+                                <li class="header-navigation_sub--item">
+                                    <a href="" class="header-navigation_sub--item---link">
+                                        Tố cáo 1
+                                    </a>
+                                </li>
+                                <li class="header-navigation_sub--item">
+                                    <a href="" class="header-navigation_sub--item---link">
+                                        Tố cáo 2
+                                    </a>
+                                </li>
+                                <li class="header-navigation_sub--item">
+                                    <a href="" class="header-navigation_sub--item---link">
+                                        Tố cáo 3
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-navigation_item">
+                            <a href="bao-hiem.html" class="header-navigation_item--link">
+                                Bảo hiểm
+                            </a>
+                        </li>
+                        <li class="header-navigation_item">
+                            <a href="trung-gian.html" class="header-navigation_item--link">
+                                Trung gian
+                            </a>
+                        </li>
+                        <li class="header-navigation_item">
+                            <a href="forum.html" class="header-navigation_item--link">
+                                Diễn đàn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-button">
+                    <a href="" class="button-theme button-theme_primary">TỐ CÁO LỪA ĐẢO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main id="main" class="main">
+    <div class="section-page">
+        <div class="section-breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="fas fa-home-alt"></i>&nbsp;Trang chủ</a></li>
+                    <li class="breadcrumb-item active">Danh sách bảo hiểm</li>
+                </ol>
+            </div>
+        </div>
+        <div class="section-gap_sm">
+            <div class="container">
+                <div class="section-heading">
+                    <h1 class="heading-title">
+                        Danh sách bảo hiểm
+                    </h1>
+                    <div class="heading-line"></div>
+                    <div class="heading-description">
+                        Ấn vào <b>"Tab dịch vụ"</b> để lọc admin !!!
+                    </div>
+                    <div class="heading-tab">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#tab-1" role="tab">
+                                    Tất cả
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2" role="tab">
+                                    GDTG - Đổi tiền
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3" role="tab">
+                                    Tăng like, view, sub mxh
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4" role="tab">
+                                    Code web mmo
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5" role="tab">
+                                    Acc Free fire, Liên quân
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-6" role="tab">
+                                    Random Free fire
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-7" role="tab">
+                                    Hosting, vps, domain
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-8" role="tab">
+                                    Mở khóa, rip, bảo mật FB
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-9" role="tab">
+                                    Paypal, payoner...
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-10" role="tab">
+                                    Mua thẻ, gạch thẻ
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-11" role="tab">
+                                    Thanh toán cước, vocher
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-12" role="tab">
+                                    Tk Netflix, YouTube, Spotify…
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-13" role="tab">
+                                    Fanpage, group
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-14" role="tab">
+                                    Nạp game
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-15" role="tab">
+                                    Thẻ playerduo, code steam, tinder..
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="tab-1">
+                        <div class="row g-3">
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-2">
+                        <div class="row g-3">
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3">
+                        <div class="row g-3">
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-4">
+                        <div class="row g-3">
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="shield-item">
+                                    <div class="shield-item_avatar">
+                                        <img src="./assets/images/profile.png" alt="">
+                                    </div>
+                                    <div class="shield-item_content">
+                                        <div class="shield-item_title limit">
+                                            Nguyễn Văn Văn A
+                                        </div>
+                                        <div class="shield-item_price">
+                                            Số tiền bảo hiểm: <b>10.000.000đ</b>
+                                        </div>
+                                    </div>
+                                    <a href="" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a href="/" class="d-inline-block align-middle">
+                                <img src="./assets/images/logo.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <ul class="footer-list list-unstyled mb-0">
+                            <li class="footer-list_item">
+                                <a href="" class="footer-list_item--link">
+                                    <i class="fas fa-map-marker-alt"></i>Số 152 Trần Vỹ, Mai Dịch, Cầu Giấy, Hà Nội
+                                </a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="" class="footer-list_item--link">
+                                    <i class="fas fa-phone-rotary"></i>(+84) 024 62 757 222 (Từ Thứ 2 đến Chủ Nhật)
+                                </a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="" class="footer-list_item--link">
+                                    <i class="fas fa-phone-alt"></i>0943793984 (Zalo)
+                                </a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="" class="footer-list_item--link">
+                                    <i class="fas fa-envelope"></i>support@nencer.com
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer-social list-unstyled mb-0 d-flex align-items-center justify-content-start">
+                            <li class="footer-social_item">
+                                <a href="fb.com/admin" class="footer-social_item--link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="footer-social_item">
+                                <a href="fb.com/admin" class="footer-social_item--link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="footer-social_item">
+                                <a href="fb.com/admin" class="footer-social_item--link">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </li>
+                            <li class="footer-social_item">
+                                <a href="https://www.youtube.com/watch?v=neCmEbI2VWg" class="footer-social_item--link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="row">
+                        <div class="col-xl-4 col-6">
+                            <div class="footer-item">
+                                <div class="footer-title">
+                                    Dịch vụ
+                                </div>
+                                <ul class="footer-list list-unstyled mb-0">
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Check Scam
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Tố cáo lừa đảo
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Check quỹ bảo hiểm
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Dịch vụ Facebook
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6">
+                            <div class="footer-item">
+                                <div class="footer-title">
+                                    Liên kết nhanh
+                                </div>
+                                <ul class="footer-list list-unstyled mb-0">
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Giới thiệu
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Liên hệ
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Chính sách
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Điều khoản
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6">
+                            <div class="footer-item">
+                                <div class="footer-title">
+                                    Diễn đàn
+                                </div>
+                                <ul class="footer-list list-unstyled mb-0">
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Page Tố cáo
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Page Trung Gian
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Page Share Trick
+                                        </a>
+                                    </li>
+                                    <li class="footer-list_item">
+                                        <a href="" class="footer-list_item--link">
+                                            Page...
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="text-lg-start text-center">
+                        © 2010-2023 Checkscam
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-2 mt-lg-0">
+                    <div class="text-lg-end text-center d-flex align-items-center justify-content-lg-end justify-content-center footer-logo_payment">
+                        <div class="footer-logo_payment--item">
+                            <img src="./assets/images/payments/visa.png" class="mw-100" alt="">
+                        </div>
+                        <div class="footer-logo_payment--item">
+                            <img src="./assets/images/payments/master.png" class="mw-100" alt="">
+                        </div>
+                        <div class="footer-logo_payment--item">
+                            <img src="./assets/images/payments/amazon.webp" class="mw-100" alt="">
+                        </div>
+                        <div class="footer-logo_payment--item">
+                            <img src="./assets/images/payments/jcb.png" class="mw-100" alt="">
+                        </div>
+                        <div class="footer-logo_payment--item">
+                            <img src="./assets/images/payments/america.png" class="mw-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type=" text/javascript" src="./assets/plugins/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/fancybox/fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/js/app.js"></script>
+</body>
+
+</html>
