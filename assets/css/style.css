@@ -286,6 +286,14 @@
     .section-heading .heading-description {
         font-size: 1.05em;
     }
+
+    .section-heading .heading-tab .nav-tabs {
+        gap: 6px;
+    }
+
+    .section-heading .heading-tab .nav-tabs .nav-link {
+        padding: 6px 15px;
+    }
 }
 
 .section-form {
@@ -1511,4 +1519,35 @@
     margin-right: 5px;
     font-size: 1.1em;
     font-family: "Font Awesome 5 Pro";
+}
+
+@media screen and (max-width: 768px) {
+    .shield-wrapper .shield-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shield-wrapper .shield-info .shield-social {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .shield-wrapper .shield-info .shield-buttons {
+        margin-left: 0;
+        flex-flow: row nowrap;
+        width: 100%;
+    }
+
+    .shield-wrapper .shield-info .shield-buttons > .button-theme {
+        width: calc(50% - 5px);
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        font-size: 1em !important;
+    }
+
+    .shield-box .shield-box_content .shield-box_content--title,
+    .shield-text .shield-text_title {
+        font-size: 1.15em;
+    }
 }
