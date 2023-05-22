@@ -930,7 +930,7 @@
 
 .services-list .service-item .service-item_content .service-item_title {
 	color: #2071a2;
-	--font-size: 1.1em;
+	--font-size: 1.15em;
 	--line-height: inherit;
 	--line: 1;
 	transition: var(--transition-default);
@@ -1859,4 +1859,62 @@
 .copy-value:hover {
 	background-color: var(--primary-color);
 	color: var(--bs-white);
+}
+
+.card-box {
+	border-top: 3px solid var(--primary-color);
+	height: 100%;
+}
+
+.card-box .card-header {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.card-box .card-header .card-title {
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 1.4em;
+	color: var(--bs-black);
+	font-weight: 700;
+}
+
+.card-box .card-body .box-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.card-box .card-body .box-list li {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	gap: 3px;
+	font-size: 1.05em;
+}
+
+.card-box .card-body .box-list li .limit {
+	--font-size: 1em;
+	--line-height: inherit;
+	--line: 1;
+}
+
+.card-box .card-body .box-list li .price {
+	flex-shrink: 0;
+	color: var(--bs-danger);
+}
+
+.card-box .card-body .box-list li .button-theme {
+	margin-left: auto;
+	font-size: .9em;
+	padding: 4px 8px;
+	flex-shrink: 0;
+}
+
+.card-box .card-body .box-link {
+	margin-top: 15px;
+}
+
+.card-box .card-body .box-list.box-desc li {
+	display: block;
 }
