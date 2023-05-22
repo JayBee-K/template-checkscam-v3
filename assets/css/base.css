@@ -1,285 +1,290 @@
 :root {
-    --transition-default: 0.3s all ease-in-out;
-    --font-theme: 'Roboto', Arial, Helvetica, sans-serif;
-    --black-color: #000000;
+	--transition-default: 0.3s all ease-in-out;
+	--font-theme: 'Roboto', Arial, Helvetica, sans-serif;
+	--black-color: #000000;
 }
 
 body {
-    position: relative;
-    width: 100%;
-    color: var(--bs-gray-800);
-    font-family: var(--font-theme);
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    background-color: var(--bs-white);
-    line-height: 1.5;
+	position: relative;
+	width: 100%;
+	color: var(--bs-gray-800);
+	font-family: var(--font-theme);
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	background-color: var(--bs-white);
+	line-height: 1.5;
 }
 
 a,
 a:hover,
 a:focus {
-    outline: none;
-    text-decoration: none;
-    cursor: pointer;
-    -o-transition: var(--transition-default);
-    transition: var(--transition-default);
-    -webkit-transition: var(--transition-default);
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	-o-transition: var(--transition-default);
+	transition: var(--transition-default);
+	-webkit-transition: var(--transition-default);
 }
 
 button,
 button:hover,
 button:focus {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline: none !important;
-    text-decoration: none !important;
-    cursor: pointer;
-    -o-transition: var(--transition-default);
-    transition: var(--transition-default);
-    -webkit-transition: var(--transition-default);
-    cursor: pointer !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+	text-decoration: none !important;
+	cursor: pointer;
+	-o-transition: var(--transition-default);
+	transition: var(--transition-default);
+	-webkit-transition: var(--transition-default);
+	cursor: pointer !important;
 }
 
 input,
 select,
 textarea {
-    -o-transition: var(--transition-default);
-    transition: var(--transition-default);
-    -webkit-transition: var(--transition-default);
+	-o-transition: var(--transition-default);
+	transition: var(--transition-default);
+	-webkit-transition: var(--transition-default);
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%) !important;
-    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%) !important;
-    outline: none !important;
-    border-color: #66afe9 !important;
+	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%) !important;
+	-webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%) !important;
+	outline: none !important;
+	border-color: #66afe9 !important;
 }
 
 .transition-default {
-    -o-transition: var(--transition-default);
-    transition: var(--transition-default);
-    -webkit-transition: var(--transition-default);
+	-o-transition: var(--transition-default);
+	transition: var(--transition-default);
+	-webkit-transition: var(--transition-default);
 }
 
 .background-cover {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .background-contain {
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .image-cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 .image-contain {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
 }
 
 .object-fit-cover {
-    -o-object-fit: cover;
-    object-fit: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 .object-fit-contain {
-    -o-object-fit: contain;
-    object-fit: contain;
+	-o-object-fit: contain;
+	object-fit: contain;
 }
 
 .pseudo:before,
 .pseudo:after {
-    position: absolute;
-    content: '';
-    display: block;
+	position: absolute;
+	content: '';
+	display: block;
 }
 
 .limit {
-    --font-size: 1em;
-    --line-height: inherit;
-    --line: 2;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: var(--line);
-    line-clamp: var(--line);
-    -webkit-box-orient: vertical;
-    height: calc(var(--line) * var(--font-size) * var(--line-height));
-    font-size: var(--font-size);
+	--font-size: 1em;
+	--line-height: inherit;
+	--line: 2;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: var(--line);
+	line-clamp: var(--line);
+	-webkit-box-orient: vertical;
+	height: calc(var(--line) * var(--font-size) * var(--line-height));
+	font-size: var(--font-size);
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 input[type='number'] {
-    -moz-appearance: textfield;
+	-moz-appearance: textfield;
 }
 
 .zi--1 {
-    z-index: -1;
+	z-index: -1;
 }
 
 .zi-1 {
-    z-index: 1;
+	z-index: 1;
 }
 
 .zi-2 {
-    z-index: 2;
+	z-index: 2;
 }
 
 .zi-3 {
-    z-index: 3;
+	z-index: 3;
 }
 
 .zi-4 {
-    z-index: 4;
+	z-index: 4;
 }
 
 .zi-5 {
-    z-index: 5;
+	z-index: 5;
 }
 
 .zi-10 {
-    z-index: 10;
+	z-index: 10;
 }
 
 .button-theme {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    vertical-align: middle;
-    background-color: var(--bs-white);
-    color: var(--black-color);
-    border: 1px solid var(--bs-gray-200);
-    border-radius: 4px;
-    gap: 5px;
-    position: relative;
-    overflow: hidden;
-    white-space: nowrap;
-    font-weight: 500;
-    font-size: 1em;
-    padding: 8px 15px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	background-color: var(--bs-white);
+	color: var(--black-color);
+	border: 1px solid var(--bs-gray-200);
+	border-radius: 4px;
+	gap: 5px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	font-weight: 500;
+	font-size: 1em;
+	padding: 8px 15px;
 }
 
 .button-theme:before {
-    content: '';
-    display: block;
-    width: 200%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -200%;
-    z-index: 1;
-    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(255, 255, 255, .3)), to(transparent));
-    background: -o-linear-gradient(left, transparent, rgba(255, 255, 255, .3), transparent);
-    background: linear-gradient(to right, transparent, rgba(255, 255, 255, .3), transparent);
-    -webkit-transform: skew(-20deg);
-    -ms-transform: skew(-20deg);
-    transform: skew(-20deg);
-    -webkit-transition: inherit;
-    -o-transition: inherit;
-    transition: inherit;
+	content: '';
+	display: block;
+	width: 200%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -200%;
+	z-index: 1;
+	background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(255, 255, 255, .3)), to(transparent));
+	background: -o-linear-gradient(left, transparent, rgba(255, 255, 255, .3), transparent);
+	background: linear-gradient(to right, transparent, rgba(255, 255, 255, .3), transparent);
+	-webkit-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	transform: skew(-20deg);
+	-webkit-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
 }
 
 .button-theme:hover::before {
-    -webkit-animation: animationShine 1.2s ease;
-    animation: animationShine 1.2s ease;
+	-webkit-animation: animationShine 1.2s ease;
+	animation: animationShine 1.2s ease;
 }
 
 @-webkit-keyframes animationShine {
-    100% {
-        left: 200%;
-    }
+	100% {
+		left: 200%;
+	}
 }
 
 @keyframes animationShine {
-    100% {
-        left: 200%;
-    }
+	100% {
+		left: 200%;
+	}
 }
 
 .button-theme.button-theme_primary {
-    border-color: var(--primary-color) !important;
-    background-color: var(--primary-color);
-    color: var(--bs-white);
+	border-color: var(--primary-color) !important;
+	background-color: var(--primary-color);
+	color: var(--bs-white);
 }
 
 .button-theme.button-theme_secondary {
-    border-color: #ED1D47 !important;
-    background-color: #ED1D47;
-    color: var(--bs-white);
+	border-color: #ED1D47 !important;
+	background-color: #ED1D47;
+	color: var(--bs-white);
+}
+
+.button-theme.button-theme_warning {
+	border-color: var(--bs-warning) !important;
+	background-color: var(--bs-warning);
+	color: var(--bs-black);
 }
 
 .button-theme.button-theme_large {
-    font-weight: 700 !important;
-    font-size: 1.2em !important;
-    padding: 12px 30px !important;
+	font-size: 1.2em !important;
+	padding: 12px 30px !important;
 }
 
 .button-theme.button-theme_medium {
-    font-weight: 700 !important;
-    font-size: 1.1em !important;
-    padding: 10px 25px !important;
+	font-size: 1.15em !important;
+	padding: 10px 25px !important;
 }
 
 .effect-image {
-    position: relative;
+	position: relative;
 }
 
 .effect-image:after {
-    background: rgba(var(--bs-white-rgb), 0.3);
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 0;
-    opacity: 1;
-    z-index: 2;
-    pointer-events: none;
+	background: rgba(var(--bs-white-rgb), 0.3);
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 0;
+	opacity: 1;
+	z-index: 2;
+	pointer-events: none;
 }
 
 .effect-image:hover:after {
-    --transition-default: .5s all ease-in-out;
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: var(--transition-default);
-    -moz-transition: var(--transition-default);
-    -ms-transition: var(--transition-default);
-    -o-transition: var(--transition-default);
-    transition: var(--transition-default);
+	--transition-default: .5s all ease-in-out;
+	height: 100%;
+	opacity: 0;
+	-webkit-transition: var(--transition-default);
+	-moz-transition: var(--transition-default);
+	-ms-transition: var(--transition-default);
+	-o-transition: var(--transition-default);
+	transition: var(--transition-default);
 }
 
 .ratio img {
-    object-fit: cover;
+	object-fit: cover;
 }
 
 .ratio-3x2 {
-    --bs-aspect-ratio: calc(2 / 3 * 100%);
+	--bs-aspect-ratio: calc(2 / 3 * 100%);
 }
