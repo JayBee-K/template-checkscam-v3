@@ -788,9 +788,11 @@
 .services-list {
 	display: flex;
 	flex-direction: column;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
 	background-color: var(--bs-white);
 	border: 1px solid var(--bs-gray-300);
+	border-radius: 3px;
+	overflow: hidden;
 }
 
 .services-list .service-item {
@@ -798,11 +800,7 @@
 	gap: 8px;
 	transition: var(--transition-default);
 	padding: 8px;
-	height: 73px;
-}
-
-.services-list .service-item + .service-item {
-	border-top: 1px solid var(--bs-gray-100);
+	height: 60px;
 }
 
 .services-list .service-item .service-item_icon {
@@ -815,6 +813,7 @@
 	border-radius: 50%;
 	flex-shrink: 0;
 	position: relative;
+	top: 3px;
 }
 
 .services-list .service-item .service-item_icon img {
@@ -824,22 +823,22 @@
 .services-list .service-item .service-item_content {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	width: 100%;
 }
 
 .services-list .service-item .service-item_content .service-item_title {
-	color: var(--bs-gray-800);
-	font-weight: 500;
-	--font-size: 1.15em;
+	color: #2071a2;
+	--font-size: 1.1em;
 	--line-height: inherit;
 	--line: 1;
 	transition: var(--transition-default);
+	line-height: var(--line-height);
+	height: auto;
 }
 
 .services-list .service-item .service-item_content .service-item_desc {
-	color: var(--bs-gray-600);
-	--line: 2;
+	color: #7d7d7e;
+	--line: 1;
 	--line-height: 1.2;
 	line-height: var(--line-height);
 	height: auto;
@@ -857,11 +856,11 @@
 .services-list .service-item .service-item_meta .service-item_price {
 	font-weight: 700;
 	color: var(--bs-danger);
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .services-list .service-item .service-item_meta .service-item_link {
-	color: var(--bs-link-color);
+	color: #2071a2;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -869,6 +868,7 @@
 	transition: var(--transition-default);
 	margin-top: auto;
 	white-space: nowrap;
+	font-size: 0.975em;
 }
 
 .services-list .service-item .service-item_meta .service-item_link > i {
@@ -882,6 +882,7 @@
 .services-list.services-list_2 .service-item .service-item_meta {
 	margin-top: 0;
 	flex-direction: row;
+	line-height: 1;
 }
 
 .services-list.services-list_2 .service-item .service-item_meta .service-item_link {
@@ -890,6 +891,7 @@
 
 .services-list.services-list_2 .service-item .service-item_meta .service-item_price small {
 	font-size: 14px;
+	color: #7d7d7e;
 }
 
 .services-list .service-item:hover {
